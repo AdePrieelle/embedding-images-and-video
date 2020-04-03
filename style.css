@@ -1,0 +1,51 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    background-color: coral; 
+  }
+
+  .navbar {
+      background-color: aquamarine;
+      width: 100%;
+      height: 5%;
+  }
+
+  .video-title-description-comments-recommended {
+      background-color: rgb(240, 240, 240);
+      height: 95%;
+      display: flex;
+  }
+
+  .video-title-description-comments {
+      width: 72.5%;
+  }
+
+  .recommended {
+      width: 27.5%;
+      background-color: coral; 
+  }
+
+  .video {
+      height: 82.5%;
+      background-color: bisque;
+  }
+
+  .title {
+      height: 7.5%;
+      background-color: darkseagreen;
+  }
+
+  .description {
+      height: 15%;
+      background-color: lightskyblue;
+  }
+
+  .comments {
+      height: 100%;
+      background-color: brown;
+  }
