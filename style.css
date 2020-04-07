@@ -45,17 +45,23 @@ body {
 
 .title {
     height: 7.5%;
-    background-color: darkseagreen;
+    margin: 0 7%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
 }
 
 .description {
-    height: 15%;
-    background-color: lightskyblue;
+    height: 16%;
+    background-color: rgb(250, 250, 250);
+    margin: 0 7%;
+    display: flex;
 }
 
 .comments {
     height: 100%;
-    background-color: brown;
+    background-color: rgb(250, 250, 250);
+    margin: 0 7%;
 }
 
 .menu {
@@ -211,4 +217,189 @@ body {
     margin-bottom: 5px;
     font-size: 13px;
     color: #606060;
+}
+
+.titlename {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1%;
+}
+
+.titleviews {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #606060;
+}
+
+.titlelikeicon {
+    height: 20px;
+    width: 20px;
+    
+}
+
+.titledislikeicon {
+    height: 20px;
+    width: 20px;
+    transform: rotate(180deg);
+    
+}
+
+.titleviews-titlelikes-titlesshare-titlesave-titlesettings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlelikes {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.titlelike {
+    display: flex;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.titledislike {
+    display: flex;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.titleshare-icon-text {
+    display: flex;
+}
+
+.shareicon {
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.sharetext {
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.titlesave-icon-text {
+    display: flex;
+}
+
+.saveicon {
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.savetext {
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.threedotsicon {
+    height: 15px;
+    width: 15px;
+    opacity: 0.5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hr-line-left {
+    display: block;
+    height: 1px;
+    width: 86%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0 15% 1% 7%;
+    padding: 0;
+}
+
+.wimbledon-logo {
+    height: 50px;
+}
+
+.description-channel-subscribers-text-showmore {
+    padding-left: 1.5%;
+    padding-right: 40%;
+}
+
+.description-channel {
+    font-size: 14px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.description-subscribers {
+    font-size: 13px;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: rgb(96, 96, 96);
+    padding-bottom: 20px;
+}
+
+.description-text {
+    font-size: 15px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(3, 3, 3);
+    padding-bottom: 12px;
+}
+
+.description-showmore {
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+    font-family: 'Robot', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.subscribe {
+    background-color: rgb(204, 0, 0);
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-family: 'Roboto' sans-serif;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.comments-numbercomments-sortbylogo-sortby {
+    display: flex;
+}
+
+.comments-publiccomment-logo-text {
+    display: flex;
+}
+
+.comments-publiccomment-picture-username-timeago-thecomment-likes-reply-viewreplies {
+    display: flex;
+}
+
+.comments-publiccomment-username-timeago {
+    display: flex;
+}
+
+.comments-publiccomment-likes-upvotelogo {
+    display: flex;
+}
+
+.comments-publiccomment-viewreplies {
+    display: flex;
 }
