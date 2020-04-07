@@ -403,3 +403,66 @@ body {
 .comments-publiccomment-viewreplies {
     display: flex;
 }
+
+.numbercomments {
+    color: rgb(3, 3, 3);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.comments-numbercomments-sortbylogo-sortby {
+    padding: 15px 0;
+}
+
+.sortbylogo {
+    height: 18px;
+    opacity: .4;
+}
+
+.comments-sortbylogo {
+    padding-left: 4%;
+    padding-right: 1%;
+}
+
+.sortby {
+    font-size: 14px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(96, 96, 96);
+}
+
+.comments-publiccomment-logo {
+    padding-right: 1.2%;
+}
+
+.publiccomment-logo {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.comments-publiccomment-logo-text {
+    padding-bottom: 20px;
+}
+
+.publiccomment-text {
+    color: rgb(96, 96, 96);
+    font-family: 'Robot', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 1px;
+    padding-bottom: 6px;
+}
+
+.comments-publiccomment-text {
+    width: 100%;
+}
+
+.hr-line-left-public-comment {
+    display: block;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;  
+}
