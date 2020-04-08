@@ -390,6 +390,7 @@ body {
 
 .comments-publiccomment-picture-username-timeago-thecomment-likes-reply-viewreplies {
     display: flex;
+    padding-bottom: 30px;
 }
 
 .comments-publiccomment-username-timeago {
@@ -432,7 +433,8 @@ body {
     color: rgb(96, 96, 96);
 }
 
-.comments-publiccomment-logo {
+.comments-publiccomment-logo,
+.comments-publiccomment-picture {
     padding-right: 1.2%;
 }
 
@@ -442,7 +444,8 @@ body {
 }
 
 .comments-publiccomment-logo-text {
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .publiccomment-text {
@@ -465,4 +468,89 @@ body {
     border: 0;
     border-top: 1px solid #ccc;
     padding: 0;  
+}
+
+.comments-username {
+    color: rgb(3, 3, 3);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 6px;
+}
+
+.comments-timeago {
+    color: rgb(3, 3, 3);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    opacity: .6;
+}
+
+.comments-publiccomment-username-timeago {
+    padding: 1px 0 3px 0;
+}
+
+.comments-publiccomment-thecomment {
+    color: rgb(3, 3, 3);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    padding-bottom: 12px;
+}
+
+.publiccomment-upvotelogo {
+    height: 15px;
+    padding-right: 10px;
+    opacity: .42;
+}
+
+.publiccomment-likes-amount {
+    color: rgb(96, 96, 96);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+.publiccomment-downvotelogo {
+    height: 15px;
+    padding-right: 6px;
+    opacity: .42;
+    padding-left: 25px;
+    transform: rotate(180deg);
+    
+}
+
+.comments-publiccomment-likes-upvotelogo {
+    display: flex;
+    align-items: center;
+}
+
+.publiccomment-reply {
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.comments-publiccomment-likes-reply {
+    padding-bottom: 10px;
+}
+
+.comments-publiccomment-viewreplies-dragdownlogo {
+    color: rgb(6, 95, 212);
+    font-size: 14px;
+    width: 20px;
+    line-height: 6px;
+}
+
+.comments-publiccomment-viewreplies {
+    color: rgb(6, 95, 212);
+    font-size: 14px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bold;
 }
