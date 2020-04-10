@@ -19,6 +19,9 @@ body {
     font-size: 20px;
     padding: 0 30px;
     flex-shrink: 0;
+    position:fixed;
+    top:0;
+    z-index: 100;
 }
 
 .navbar-menu-youtube-logo {
@@ -38,46 +41,53 @@ body {
 }
 
 .video-title-description-comments-recommended {
-    background-color: rgb(250, 250, 250);
-    height: 95%;
+    padding-top: 56px;
     display: flex;
 }
 
 .video-title-description-comments {
     width: 72.5%;
+    min-width: 650px;
+    padding-left: 5.5%;
+    padding-top: 25px;
 }
 
 .recommended {
     width: 480px;
-    padding: 1% 7.5% 0 1.25%;
-    background-color: rgb(250, 250, 250);
+    padding: 18px 7.5% 0 1.25%;
 }
 
-.video {
-    height: 82.5%;
-    padding: 2% 0% 2% 7%;
+.video { 
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .title {
-    height: 10%;
-    margin: 0 0 0 7%;
-    background-color: rgb(250, 250, 250);
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.titlebuttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
 }
 
 
 .description {
-    height: 16%;
-    background-color: rgb(250, 250, 250);
-    margin: 0 0 0 7%;
     display: flex;
-}
-
-.comments {
-    height: 100%;
-    background-color: rgb(250, 250, 250);
-    margin: 0 0 0 7%;
 }
 
 .menu {
@@ -125,28 +135,23 @@ body {
 }
 
 .video-camera-navbar {
-    /* padding-left: 25%; */
     color: rgb(96, 96, 96);
     font-size: 16px;
 }
 
 .youtube-apps {
     color: rgb(96, 96, 96);
-    /* padding-left: 2vw; */
     font-size: 16px;
 }
 
 .youtube-settings {
     color: rgb(96, 96, 96);
-    /* padding-left: 2vw; */
     font-size: 16px;
 }
 
 .useraccount {
     height: 40px;
     width: 40px;
-    /* padding-left: 2vw; */
-    /* padding-right: 2vw; */
 }
 
 .sign-in {
@@ -161,15 +166,15 @@ body {
 }
 
 .upnext-autoplay-toggle {
-    
     display: flex;
     align-items: center;
 }
 
 .upnext {
-    font-size: 1rem;
+    font-size: 16px;
     white-space: nowrap;
-    padding-right: 50%;
+    padding-right: 220px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .autoplay-toggle {
@@ -192,6 +197,7 @@ body {
 
 .recommended-thumbnail {
     display: flex;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -252,14 +258,12 @@ body {
 .titlelikeicon {
     height: 20px;
     width: 20px;
-    
 }
 
 .titledislikeicon {
     height: 20px;
     width: 20px;
     transform: rotate(180deg);
-    
 }
 
 .titleviews-titlelikes-titlesshare-titlesave-titlesettings {
@@ -350,10 +354,9 @@ body {
 .hr-line-left-description {
     display: block;
     height: 1px;
-    width: 93%;
+    width: 100%;
     border: 0;
     border-top: 1px solid #ccc;
-    margin-left: 7%;
     padding: 0;
 }
 
