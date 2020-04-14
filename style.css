@@ -301,7 +301,7 @@ body {
     padding-right: 10%;
     font-size: 0.8rem;
     color: rgb(56, 56, 56);
-    font-family: cursive;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .toggle {
